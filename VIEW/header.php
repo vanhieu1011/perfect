@@ -32,13 +32,12 @@
                     <li><a class="active" href="index.php">TRANG CHỦ</a></li>
                     <li><a href="index.php?pg=sanpham">CỬA HÀNG</a></li>
                     <li><a href="index.php?pg=gioithieu">GIỚI THIỆU</a></li>
-                    <li><a href="index.php?pg=lienhe">LIÊN HỆ</a></li>
                     <li><a href="index.php?pg=tintuc">TIN TỨC</a></li>
                     <li id="lg-bag"><a href="index.php?pg=viewcart"><i class="fa-solid fa-cart-shopping"></i></a></li>
                     <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a> 
                         <div class="timkiem">
                             <form action="index.php?pg=sanpham" method="post">
-                                <input type="text" name="kyw" placeholder="Bạn muốn tìm gì" style="width: 350px; height: 50px; padding: 16px; border-radius: 40px; border: 1px solid transparent;">
+                                <input type="text" name="kyw" placeholder="Bạn muốn tìm gì" style="width: 300px; height: 50px; padding: 16px; border-radius: 40px; border: 1px solid transparent;">
                                 <input type="submit" name="timkiem" value="Tìm Kiếm" style="width: 80px; height: 50px;  background-color: #336699; color: #fff; white-space: nowrap; border-radius: 40px; border: 1px solid transparent;">
                             </form>
                         </div>
