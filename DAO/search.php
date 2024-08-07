@@ -10,7 +10,7 @@ function searchSanPhamByName($conn, $keyword) {
 
 function showspsearch($dssp_search){
     $html_dssp_search = '';
-    // test
+    // hung
     foreach ($dssp_search as $sp) {
         extract($sp);
         $link = "index.php?pg=sanphamchitiet&idpro=" . htmlspecialchars($id);
